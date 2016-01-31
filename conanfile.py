@@ -3,7 +3,7 @@ import os
 from conans.tools import download, unzip, check_sha256
 from conans import CMake
 
-class SQLite3Conan(ConanFile):
+class ArbitraryName(ConanFile):
     name = "websocketpp"
     version = "0.7"
     branch = "develop"
