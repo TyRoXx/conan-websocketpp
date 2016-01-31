@@ -9,7 +9,6 @@ class ArbitraryName(ConanFile):
     branch = "develop"
     generators = "cmake"
     url="http://github.com/TyRoXx/conan-websocketpp"
-    exports = ["CMakeLists.txt"]
     ZIP_FOLDER_NAME = "websocketpp-bb4cbf3d0390b6582704d7520f82e8dd17857fc7"
 
     def source(self):
