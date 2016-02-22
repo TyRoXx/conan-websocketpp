@@ -4,8 +4,7 @@ import platform
 import sys
 
 if __name__ == "__main__":
-    os.system('conan remove websocketpp/0.7@TyRoXx/develop')
-    os.system('conan export TyRoXx/develop')
+    os.system('conan export TyRoXx/stable')
 
     def test(settings):
         argv =  " ".join(sys.argv[1:])

@@ -2,7 +2,7 @@ project(websocketpp_test)
 cmake_minimum_required(VERSION 2.8)
 
 include(conanbuildinfo.cmake)
-CONAN_BASIC_SETUP()
+conan_basic_setup()
 
 add_executable(test test.cpp)
 include_directories(${CONAN_INCLUDE_DIRS})

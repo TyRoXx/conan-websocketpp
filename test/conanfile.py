@@ -7,7 +7,7 @@ class DefaultNameConan(ConanFile):
     version = "0.1"
     settings = "os", "compiler", "arch", "build_type"
     generators = "cmake"
-    requires = "websocketpp/0.7@TyRoXx/develop", "Boost/1.60.0@lasote/stable"
+    requires = "websocketpp/0.7.0@TyRoXx/stable", "Boost/1.60.0@lasote/stable"
 
     def build(self):
         cmake = CMake(self.settings)
